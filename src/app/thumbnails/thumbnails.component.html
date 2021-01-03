@@ -1,0 +1,7 @@
+<div style="text-align: center;">
+  <span (click)="leftArrow()">&#8592;</span>
+  <img (click)="onPhotoChosen(startIndex)" src="{{ getThumbnail(startIndex) }}" >
+  <img (click)="onPhotoChosen(startIndex+1)" src="{{ getThumbnail(startIndex+1) }}">
+  <img (click)="onPhotoChosen(startIndex+2)" src="{{ getThumbnail(startIndex+2) }}">
+  <span (click)="rightArrow()">&#8594;</span>
+</div>
